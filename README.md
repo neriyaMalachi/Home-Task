@@ -16,7 +16,7 @@ This project is a simple e-commerce app where users can browse products, view de
 ## 🛠️ Installation & Setup
 ### 1️⃣ Clone the repository:
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/neriyaMalachi/Home-Task
 cd your-repo
 ```
 
@@ -36,37 +36,8 @@ PORT=5000
 ```sh
 npm run dev
 ```
-By default, the backend will run on `http://localhost:5000`.
+By default, the backend will run on `http://localhost:3000`.
 
-### 5️⃣ Run the frontend:
-If the frontend is in a separate folder, navigate there and run:
-```sh
-npm start
-```
-
----
-
-## 📂 Project Structure
-```
-📦 your-repo
- ┣ 📂 backend
- ┃ ┣ 📂 models
- ┃ ┃ ┣ 📄 Product.js   # Product schema
- ┃ ┃ ┗ 📄 Review.js    # Review schema
- ┃ ┣ 📂 routes
- ┃ ┃ ┗ 📄 products.js  # API routes for products & reviews
- ┃ ┣ 📄 server.js      # Main Express server
- ┃ ┗ 📄 .env          # Environment variables
- ┣ 📂 frontend
- ┃ ┣ 📂 src
- ┃ ┃ ┣ 📂 components
- ┃ ┃ ┣ 📂 pages
- ┃ ┃ ┗ 📄 App.js
- ┃ ┣ 📄 package.json
- ┗ 📄 README.md
-```
-
----
 
 ## 📡 API Routes
 ### 🛍️ Products
@@ -80,8 +51,8 @@ npm start
 
 ## 🏗️ Built With
 - **Backend:** Node.js, Express, MongoDB, Mongoose
-- **Frontend:** React, Tailwind CSS
-- **Tools:** Axios, dotenv, cors
+- **Frontend:** Next, Tailwind CSS
+- **Tools:** Axios, dotenv
 
 ---
 
@@ -105,5 +76,5 @@ This project is licensed under the **MIT License**.
 ## 🔗 Contact
 For any questions, feel free to reach out!
 📧 Email: your-email@example.com
-📌 GitHub: [your-username](https://github.com/your-username)
+📌 GitHub: [neriyaMalachi](https://github.com/neriyaMalachi)
 
